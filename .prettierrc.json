@@ -1,0 +1,12 @@
+{
+	"endOfLine": "lf",
+	"semi": true,
+	"singleQuote": true,
+	"parser": "typescript",
+	"tabWidth": 2,
+	"useTabs": true,
+	"trailingComma": "es5",
+	"plugins": [
+		"prettier-plugin-tailwindcss"
+	]
+}

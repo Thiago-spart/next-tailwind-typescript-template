@@ -17,4 +17,21 @@
 		-webkit-appearance: none;
 		margin: 0;
 	}
+
+	input[type="file"]::file-selector-button {
+		@apply bg-gray-200 border-none text-lg h-full;
+	}
+
+	::-webkit-scrollbar {
+		width: 6px;
+		height: 6px;
+	}
+	
+	::-webkit-scrollbar-track {
+		background-color: transparent;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		@apply bg-gray-500 rounded-xl hover:bg-gray-600;
+	}
 }

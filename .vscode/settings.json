@@ -16,8 +16,8 @@
 
 	// Make ESLint fix all the things that he can on save (like prettier formating)
 	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true,
-		"source.fixAll.stylelint": true
+		"source.fixAll.eslint": "explicit",
+		"source.fixAll.stylelint": "explicit"
 	},
 
 	// Make VSCode understand this files as files of this languages
